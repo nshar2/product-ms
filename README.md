@@ -24,7 +24,7 @@ spring.data.mongodb.port=27017
 # swagger-ui
 localhost:8080/swagger-ui.html
 
-#bImprovements possible
+# Improvements possible
 CreateProduct endpoint overrides any existing product. Ideally if a product by sku already exists, then httpstatus 409(conflict) 
 could be sent.
 Test data creation could have gone into TestDataBuilder classes
