@@ -5,7 +5,7 @@ It uses a MongoDB database to persist products
 
 # to build the service
 
-To build the service from command line: mvn clean install
+To build(compile, run tests(both unit and integration tests), package) the service from command line: mvn clean install
 
 # service assumptions
 The services assumes that there is an instance of MongoDB running locally on port 27017.
@@ -25,9 +25,9 @@ spring.data.mongodb.port=27017
 localhost:8080/swagger-ui.html
 
 # Improvements possible
-CreateProduct endpoint overrides any existing product. Ideally if a product by sku already exists, then httpstatus 409(conflict) 
+1) CreateProduct endpoint overrides any existing product. Ideally if a product by sku already exists, then httpstatus 409(conflict) 
 could be sent.
-Test data creation could have gone into TestDataBuilder classes
-More testing around validations would have been nice
+2) Test data creation could have gone into TestDataBuilder classes.
+3) More testing around validations would have been nice.
 
 
