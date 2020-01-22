@@ -1,0 +1,2 @@
+:: ${spring.application.name} :: (v${application.version})
+:: Spring Boot :: ${spring-boot.formatted-version}
