@@ -22,7 +22,7 @@
 		<spotbugs.skip>false</spotbugs.skip>
 		<java.version>13</java.version>
         <lombok.version>1.16.22</lombok.version>
-        <swagger.version>2.9.2</swagger.version>
+        <swagger.version>2.10.0</swagger.version>
         <junit-vintage.version>5.4.0</junit-vintage.version>
     </properties>
 	
